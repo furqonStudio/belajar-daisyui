@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-menu {
+  @apply mx-auto rounded-3xl hover:scale-95 duration-500;
+}
+
+.btn-carousel {
+  @apply btn btn-ghost btn-sm text-white;
+}
+
+.text-hover {
+  @apply absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100;
+}
+
+.active-nav {
+  @apply underline underline-offset-4 decoration-warning text-warning;
+}
