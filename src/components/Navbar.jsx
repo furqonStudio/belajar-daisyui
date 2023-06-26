@@ -22,7 +22,7 @@ const Navbar = () => {
           <a className="btn btn-ghost normal-case text-xl">Furqon.std</a>
         </div>
         <div className="flex-none">
-          <div className="dropdown dropdown-end sm:hidden">
+          <div className="dropdown dropdown-end ">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
